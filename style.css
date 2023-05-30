@@ -1,0 +1,19 @@
+/*
+btn color + line : #02E0D0
+btn font -'Hammersmith One', sans-serif;
+text-color-light : #FCFCFC
+text-font : roboto
+title-font : 'Playfair Display', serif;
+
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
