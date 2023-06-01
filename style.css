@@ -1,9 +1,13 @@
+
+
 /*
 btn color + line : #02E0D0
 btn font -'Hammersmith One', sans-serif;
 text-color-light : #FCFCFC
 text-font : roboto
 title-font : 'Playfair Display', serif;
+
+
 */
 
 * {
@@ -14,7 +18,37 @@ title-font : 'Playfair Display', serif;
 }
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
+/*Section-3-Kim*/
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./img/bgk-middle.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.section-3 img {
+  width: 2.5rem;
+  padding-bottom: 0.4rem;
+}
+
+.section-3 h5 {
+  color: #fcfcfc;
+  font-size: 0.4rem;
+}
+
+.section-3 img:hover {
+  cursor: pointer;
+}
+
+/*End Section-3-Kim*/
 
 /* Section_2 by Rashmi */
 
