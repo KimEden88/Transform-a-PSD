@@ -1,3 +1,5 @@
+
+
 /*
 btn color + line : #02E0D0
 btn font -'Hammersmith One', sans-serif;
@@ -47,3 +49,73 @@ body {
 }
 
 /*End Section-3-Kim*/
+
+/* Section_2 by Rashmi */
+
+.section-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.section-2--right > * {
+  margin-top:  2rem;
+}
+
+.section-2--left{
+  margin-right: 6rem;
+  
+}
+
+.section-2--right{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  /* align-items: center; */
+  align-content: flex-start;
+  width: 50%;
+
+  
+}
+
+.section-2--right h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7rem;
+  color: #454545;
+}
+
+.section-2--right > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #b2b2b2;
+}
+
+.section-2 img {
+
+  width: 20rem;
+
+}
+
+.section-2 button {
+
+  width: 9rem;
+  padding: 1rem 0.5rem;
+
+  background-color: white;
+  color: rgb(79,232,221);
+  border-width: 1px;
+  border-color: rgb(79,232,221); 
+
+  margin-bottom: 1rem;
+  font-size: 1rem;
+
+  font-family: 'Hammersmith One', sans-serif;
+  
+
+}
+
+
+
+
