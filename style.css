@@ -20,6 +20,65 @@ body {
   flex-direction: column;
 }
 
+/* Section-2-Rashmi */
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.section-2--left {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.section-2--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 50%;
+}
+
+.section-2--right h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: #454545;
+}
+
+.section-2--right > p {
+  margin-top: 0.5rem;
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6rem;
+  color: #b2b2b2;
+}
+
+.section-2 img {
+  width: 7rem;
+  height: auto;
+}
+
+.section-2 button {
+  width: 4rem;
+  background-color: #ffffff;
+  color: #4fe8dd;
+  border: 0.6px solid #4fe8dd;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-top: 0.5rem;
+}
+
+/* Section-2 End-Rashmi */
+
 /*Section-3-Kim*/
 .section-3 {
   display: flex;
@@ -52,7 +111,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
 }
 /*Section-4-Top*/
 .top {
@@ -60,6 +120,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .top h2 {
   font-family: 'Playfair Display', serif;
@@ -80,8 +141,9 @@ body {
 /*Section-4-Bottom*/
 .bottom {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 10rem);
+  grid-template-rows: repeat(2, 10rem);
+  padding: 1rem;
 }
 
 .bottom .card {
@@ -89,71 +151,38 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 10rem;
-  height: 10rem;
-  margin: 1rem;
+  padding: 1rem;
 }
 .bottom img {
-  width: 1.4rem;
+  height: 1.4rem;
 }
 .bottom p {
-  text-align: justify;
-  word-wrap: balance;
+  margin-top: 0.3rem;
+  font-size: 0.5rem;
+  color: #b2b2b2;
+  font-weight: 200;
+  line-height: 8px;
+  text-align: center;
+}
+.bottom h4 {
+  font-size: 0.5rem;
+  color: #454545;
+  margin-top: 1rem;
+}
+
+.card-2 {
+  border-bottom: 0.3px solid rgba(178, 178, 178, 0.6);
+  border-right: 0.3px solid rgba(178, 178, 178, 0.6);
+  border-left: 0.3px solid rgba(178, 178, 178, 0.6);
+}
+.card-1,
+.card-3 {
+  border-bottom: 0.3px solid rgba(178, 178, 178, 0.6);
+}
+
+.card-5 {
+  border-right: 0.3px solid rgba(178, 178, 178, 0.6);
+  border-left: 0.3px solid rgba(178, 178, 178, 0.6);
 }
 
 /*End Section-4-Kim*/
-/* Section_2 by Rashmi */
-
-.section-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-2--right > * {
-  margin-top: 2rem;
-}
-
-.section-2--left {
-  margin-right: 6rem;
-}
-
-.section-2--right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  /* align-items: center; */
-  align-content: flex-start;
-  width: 50%;
-}
-
-.section-2--right h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.7rem;
-  color: #454545;
-}
-
-.section-2--right > p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  color: #b2b2b2;
-}
-
-.section-2 img {
-  width: 20rem;
-}
-
-.section-2 button {
-  width: 9rem;
-  padding: 1rem 0.5rem;
-
-  background-color: white;
-  color: rgb(79, 232, 221);
-  border-width: 1px;
-  border-color: rgb(79, 232, 221);
-
-  margin-bottom: 1rem;
-  font-size: 1rem;
-
-  font-family: 'Hammersmith One', sans-serif;
-}
