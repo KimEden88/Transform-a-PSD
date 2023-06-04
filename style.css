@@ -344,3 +344,147 @@ body {
   height: auto;
 }
 /* section-6 End  */
+/* Footer */
+footer {
+  background-image: url(./img/bgk-footer.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+footer h3 {
+  color: #fcfcfc;
+  font-size: 0.7rem;
+  font-weight: 100;
+  padding-bottom: 0.7rem;
+}
+
+.info {
+  /* display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  padding-bottom: 2rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  justify-items: center;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-left p {
+  max-width: 80%;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.footer-logo img {
+  width: 1.5rem;
+}
+.footer-logo h2 {
+  color: #4fe8dd;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+footer p,
+h4 {
+  color: #fcfcfc;
+}
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.location,
+.tel {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.location img,
+.tel img {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin-right: 0.5rem;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.newsletter {
+  display: flex;
+}
+
+.newsletter img {
+  height: 0.7rem;
+}
+
+.newsletter div {
+  width: 2.2rem;
+  height: 1.5rem;
+  background-color: rgba(178, 178, 178, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+.newsletter div:hover {
+  cursor: pointer;
+}
+
+.newsletter input {
+  border: 0.5px solid rgba(178, 178, 178, 0.5);
+  padding: 0.3rem 0.4rem;
+  background-color: rgba(252, 252, 252, 0);
+}
+
+.socials img {
+  padding-top: 1rem;
+  width: 1rem;
+  margin-right: 0.2rem;
+}
+
+.socials img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+.footer-nav--left {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+.footer-nav--left h4 {
+  font-weight: 100;
+}
+.footer-nav--left h4:hover {
+  cursor: pointer;
+  color: rgba(252, 252, 252, 0.7);
+}
