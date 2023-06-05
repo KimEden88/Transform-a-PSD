@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* Section-1 Armi */
 
 .section-1 {
   display: flex;
@@ -37,12 +36,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  
 }
 
 nav .logo1 {
-  width: 30px;
-  display: inline-block;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2rem;
+  padding-top: 1rem;
+
 
 }
 
@@ -66,8 +69,12 @@ nav .nav-item:hover {
 
 
 nav ul {
+  display:flex;
+  align-items: baseline;
+  justify-content: space-around;
   list-style: none;
   margin-left: auto;
+  align-content: flex-start;
 }
 
 nav li{
@@ -119,6 +126,8 @@ nav li{
   font-family: 'Hammersmith One', sans-serif;
   margin-top: 0.5rem;
 }
+
+
 
 
 /* Section-2-Rashmi */
@@ -213,7 +222,6 @@ nav li{
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 5rem;
 }
 /*Section-4-Top*/
 .top {
@@ -287,3 +295,306 @@ nav li{
 }
 
 /*End Section-4-Kim*/
+
+/* section-5  */
+
+.section-5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+
+  /* background-image: url(./img/bgk-header.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.section-5 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  position: absolute;
+}
+.section-5--top {
+  font-family: 'Playfair Display', serif;
+  color: #fcfcfc;
+  text-align: center;
+  padding: 2rem 0;
+}
+.section-5--top h2 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding-bottom: 0.3rem;
+}
+.section-5--top p {
+  font-size: 0.5rem;
+  font-weight: 300;
+}
+.lineDiv {
+  padding-top: 0.5rem;
+  margin: auto;
+  width: 2rem;
+  border-bottom: 0.7px solid rgba(178, 178, 178, 0.3);
+}
+
+.section-5--middle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70px;
+  min-height: 95px;
+  border: 0.4px solid #fcfcfc;
+  color: #fcfcfc;
+  text-align: center;
+}
+.grid-item h2 {
+  padding-top: 0.6rem;
+}
+.grid-item p {
+  color: rgba(252, 252, 252, 0.5);
+  padding-top: 0.3rem;
+}
+.empty {
+  width: 100%;
+  height: 70%;
+  background-color: #fcfcfc;
+}
+
+.section-5--bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-5--bottom p {
+  margin-top: 3rem;
+  color: rgba(252, 252, 252, 0.6);
+  font-size: 0.7rem;
+  word-spacing: 1px;
+}
+.section-5--bottom button {
+  background-color: rgba(252, 252, 252, 0);
+  color: #4fe8dd;
+  border: 0.6px solid #4fe8dd;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 0.3rem 0.2rem;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-top: 0.8rem;
+  margin-bottom: 2.5rem;
+}
+/* section-5-End*/
+
+/* section-6*/
+
+.section-6 {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 4rem;
+}
+.section-6 h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.7rem;
+  color: #454545;
+  margin-bottom: 1.5rem;
+}
+
+.section-6-left {
+  display: flex;
+  flex-direction: column;
+}
+.section-6-left form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.section-6-left input {
+  border: 0.5px solid rgba(178, 178, 178, 0.5);
+  padding: 0.3rem 0.4rem;
+}
+.section-6-left textarea {
+  border: 0.5px solid rgba(178, 178, 178, 0.5);
+  padding: 0.3rem 0.4rem;
+}
+::placeholder {
+  color: rgba(178, 178, 178, 0.6);
+  font-size: 0.5rem;
+}
+
+.section-6-left button {
+  width: 4rem;
+  background-color: #ffffff;
+  color: #4fe8dd;
+  border: 0.6px solid #4fe8dd;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 0.3rem 0;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 1rem;
+}
+
+.icons img {
+  max-width: 40px;
+  height: auto;
+}
+/* section-6 End  */
+/* Footer */
+footer {
+  background-image: url(./img/bgk-footer.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+footer h3 {
+  color: #fcfcfc;
+  font-size: 0.7rem;
+  font-weight: 100;
+  padding-bottom: 0.7rem;
+}
+
+.info {
+  /* display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  padding-bottom: 2rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  justify-items: center;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-left p {
+  max-width: 80%;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.footer-logo img {
+  width: 1.5rem;
+}
+.footer-logo h2 {
+  color: #4fe8dd;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+footer p,
+h4 {
+  color: #fcfcfc;
+}
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.location,
+.tel {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.location img,
+.tel img {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin-right: 0.5rem;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.newsletter {
+  display: flex;
+}
+
+.newsletter img {
+  height: 0.7rem;
+}
+
+.newsletter div {
+  width: 2.2rem;
+  height: 1.5rem;
+  background-color: rgba(178, 178, 178, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.3rem;
+}
+.newsletter div:hover {
+  cursor: pointer;
+}
+
+.newsletter input {
+  border: 0.5px solid rgba(178, 178, 178, 0.5);
+  padding: 0.3rem 0.4rem;
+  background-color: rgba(252, 252, 252, 0);
+}
+
+.socials img {
+  padding-top: 1rem;
+  width: 1rem;
+  margin-right: 0.2rem;
+}
+
+.socials img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+.footer-nav--left {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+.footer-nav--left h4 {
+  font-weight: 100;
+}
+.footer-nav--left h4:hover {
+  cursor: pointer;
+  color: rgba(252, 252, 252, 0.7);
+}
